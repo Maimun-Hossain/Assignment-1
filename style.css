@@ -66,10 +66,10 @@ nav{
 .herobutton{
   display: flex;
   justify-content: center;
-  padding-top: 240px;
+  padding-top: 190px;
 }
 .herobtn{
-  width: 282px;
+  width: 20%;
   height: 74px;
   font-size: 1.5rem;
 }
@@ -223,4 +223,102 @@ footer{
     color: #6B7280;
     font-size: 0.9rem;
     padding-top: 20px;
+}
+
+/* AI section part took idea from ai and applied*/
+
+.journeySection{
+    padding-bottom: 100px;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+.sectionHeader{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sectionHeader h2{
+    font-size: 2.7rem;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.sectionHeader p{
+    max-width: 600px;
+    margin: 0px auto;
+    color: #575757;
+}
+
+.journeyGrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.journeyCard{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(13, 27, 42, 0.081);
+    display: flex;
+    flex-direction: column;
+}
+
+.cardHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: #EFF6FF;
+    color: #2563EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.description{
+    color: #575757;
+    margin-bottom: 20px;
+    min-height: 60px;
+}
+
+.journeyList{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.journeyList li{
+    margin: 10px 0;
+    color: #0D1B2A;
+}
+
+.journeyList li i{
+    color: #2563EB;
+    margin-right: 5px;
+}
+
+.pathBtn{
+    border: none;
+    background: #2563EB;
+    color: white;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.pathBtn:hover{
+    background: #1D4ED8;
+    box-shadow: 0 10px 20px rgba(37,99,235,.25);
 }
