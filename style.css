@@ -190,3 +190,37 @@ hr{
     height: 48px;
     margin-top: 20px;
 }
+footer{
+    background-color: #0D1B2A;
+}
+.footerContent{
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0px;
+
+}
+.footertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerLinks{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.footerLinks i{
+    color: white;
+    font-size: 24px;
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6B7280;
+    font-size: 0.9rem;
+    padding-top: 20px;
+}
