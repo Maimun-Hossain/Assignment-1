@@ -21,6 +21,7 @@ nav{
   text-decoration: none;
   color: #575757;
   font-weight: 500;
+  font-size: 1rem;
 }
 .btn{
   background-color: #1d4ed8;
@@ -61,7 +62,7 @@ nav{
   margin: 0px auto;
   text-align: center;
   padding-top: 20px;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 .herobutton{
   display: flex;
